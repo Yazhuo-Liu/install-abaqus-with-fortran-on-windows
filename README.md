@@ -18,4 +18,7 @@ Note:
 - Abaqus CAA API component is required for running fortran subroutine
 
 ## 2.	Install visual studio community 2019 (must before intel oneAPI)
-### (a) The visual studio community 2019 installer is already uploaded in [this repository](https://github.com/Yazhuo-Liu/install-abaqus-with-fortran-on-windows/blob/main/Visual%20Studio%20community%202019.exe) 
+- The visual studio community 2019 installer is already uploaded in [this repository](https://github.com/Yazhuo-Liu/install-abaqus-with-fortran-on-windows/blob/main/Visual%20Studio%20community%202019.exe)
+- Download it and	run as administrator
+  ![image](https://github.com/user-attachments/assets/e2266792-61aa-4e24-acfd-581493798e88)
+
