@@ -20,8 +20,7 @@ Note:
 ## 2.	Install visual studio community 2019 (must before intel oneAPI)
 - The visual studio community 2019 installer is already uploaded in [this repository](https://github.com/Yazhuo-Liu/install-abaqus-with-fortran-on-windows/blob/main/Visual%20Studio%20community%202019.exe)
 - Download it and	run as administrator
-![image](https://github.com/user-attachments/assets/974c9c3e-f5a7-4b94-820e-de1340816f8c)
-
+  ![image](https://github.com/user-attachments/assets/e860d9e5-bf2f-4b2b-8580-ca49208d9fcc)
 - In the visual studio installer, install the visual studio community 2019
 - Under the Workloads view, select the checkbox to install the **Desktop development with C++**, then install
 - Finish the installation
