@@ -45,16 +45,26 @@ Note:
   ![image](https://github.com/user-attachments/assets/f5cca5c7-56a1-49fa-9dc3-dd53ae87ee12)
 - Do not consent to collection of your information
   ![image](https://github.com/user-attachments/assets/340607f2-7e17-47c3-aee6-e1804e567167)
-- Waiting Fortran to be installed
+- Waiting the installation to be finished
+  ![image](https://github.com/user-attachments/assets/46aca69e-b925-4335-b05e-9c6cd77bfc7b)
 
 ## 4. Link Fortran Compiler with ABAQUS
-- Go to the folder “C:\Program Files (x86)\Intel\oneAPI\compiler\2023.1\env”. (Replace “2023.1” by your version of oneAPI if you use different version of fortran)
+- Go to the folder “C:\Program Files (x86)\Intel\oneAPI\compiler\2023.1.0\env”. (Replace “2023.1.0” by your version of oneAPI if you use different version of fortran)
 - Find the file named “vars.bat”. View the properties of the file and copy its location.
+  ![image](https://github.com/user-attachments/assets/965dc2ce-0ad2-44e0-9337-cc46bb8db695)
 - Create a new txt file, type “call” with a space. Enter two double quotes and paste the path you just copied into the double quotes. Then add the file name into the double quotes. Make sure the path target to the “vars.bat” file. Outside the double quotes, just follow by a space and “intel64 vs2019”.
+  ![image](https://github.com/user-attachments/assets/411096b3-2aca-4015-81e3-fa814f512e01)
 - Copy this line
 - Go to the folder “C:\SIMULIA\Commands” and find the file named “abq2023.bat”. Edit the file. Paste the copied line to the beginning of the file. Then save the file (You need the administrator access to save the file).
-- Launch Abaqus CAE to check if it is functional. If yes, run abaqus verification. You can find it in the start menu.
-- 
+  ![image](https://github.com/user-attachments/assets/8b739da8-e2d1-4429-b01f-0dbe464eaca2)
+- Launch Abaqus CAE to check if it is functional.
 
+## 5. Run Abaqus Vrification. 
+- You can find Abaqus Vrification in the start menu.
+  ![image](https://github.com/user-attachments/assets/cef40422-aae2-49dd-8a49-4fb787cc1e6f)
+- Launch Abaqus Vrification, the first four test must be PASS
+  ![image](https://github.com/user-attachments/assets/597737d7-6a58-4c04-875d-2500903c715f)
+- If **YES**, **CONGRATULATIONS!**
+- You successfully finish the installation process.
   
   
