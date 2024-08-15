@@ -17,3 +17,4 @@ Note:
 - The installation instructions can be find [here](https://github.com/Yazhuo-Liu/install-abaqus-with-fortran-on-windows/blob/main/ABAQUS_Installation_Instructions.pdf)
 - Abaqus CAA API component is required for running fortran subroutine
 
+![image](https://github.com/user-attachments/assets/bcaf8b80-0a0b-4f9e-a2c4-fa4dcbc8692b)
