@@ -62,7 +62,7 @@ Note:
 ## 5. Run Abaqus Vrification. 
 - You can find Abaqus Vrification in the start menu.
   ![image](https://github.com/user-attachments/assets/cef40422-aae2-49dd-8a49-4fb787cc1e6f)
-- Launch Abaqus Vrification, the first four test must be PASS
+- Launch Abaqus Vrification, the first five test must be PASS
   ![image](https://github.com/user-attachments/assets/597737d7-6a58-4c04-875d-2500903c715f)
 - If **YES**, **CONGRATULATIONS!**
 - You successfully finish the installation process.
