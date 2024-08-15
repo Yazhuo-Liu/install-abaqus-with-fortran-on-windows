@@ -14,5 +14,5 @@ Note:
 
 ## 1. Install ABAQUS 2023
 - There is a student free version that can be downloaded from https://www.3ds.com/edu/education/students/solutions/abaqus-le
-- The installation instructions can be find on https://github.com/Yazhuo-Liu/install-abaqus-on-ubuntu/blob/main/SIMULIA_Installation_Instructions.pdf
+- The installation instructions can be find on [https://github.com/Yazhuo-Liu/install-abaqus-on-ubuntu/blob/main/SIMULIA_Installation_Instructions.pdf](https://github.com/Yazhuo-Liu/install-abaqus-with-fortran-on-windows/blob/main/ABAQUS_Installation_Instructions.pdf)
 - 
