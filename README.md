@@ -33,17 +33,28 @@ Note:
 - The intel oneAPI HPC toolkit 2023 installer is already uploaded in [this repository](https://github.com/Yazhuo-Liu/install-abaqus-with-fortran-on-windows/blob/main/w_HPCKit_p_2023.1.0.46357.exe)
 - The later version of intel Fortran Compiler can be download from [here](https://www.intel.com/content/www/us/en/developer/articles/tool/oneapi-standalone-components.html). Do NOT use later version of intel Fortran Compiler with Abaqus2023, because it may induce some competability issues.
   ![image](https://github.com/user-attachments/assets/bfbd6a80-ad84-43ba-86a2-38c224dd9021)
-- Download intel oneAPI HPC toolkit 2023 installer and run as administrator
+- Download [intel oneAPI HPC toolkit 2023 installer](https://github.com/Yazhuo-Liu/install-abaqus-with-fortran-on-windows/blob/main/w_HPCKit_p_2023.1.0.46357.exe) and run as administrator
   ![image](https://github.com/user-attachments/assets/bbabd55a-9649-4a2b-8799-d5387deb30cd)
 - Using the default installation location and custom installation
   ![image](https://github.com/user-attachments/assets/daddccd4-d559-4fa5-84f4-e0683143e699)
 - Only select **intel Fortran Compiler & intel Fortran Compiler classic**
   ![image](https://github.com/user-attachments/assets/12ab7d86-c7ce-41e4-9750-2c40c060eb0b)
-- Ignore the worning massage
+- Ignore the warning massage
   ![image](https://github.com/user-attachments/assets/12787b0b-475d-4b2f-a111-61bfb959fdef)
 - Integrate Fortran with visual studio community 2019
   ![image](https://github.com/user-attachments/assets/f5cca5c7-56a1-49fa-9dc3-dd53ae87ee12)
+- Do not consent to collection of your information
+  ![image](https://github.com/user-attachments/assets/340607f2-7e17-47c3-aee6-e1804e567167)
+- Waiting Fortran to be installed
 
+## 4. Link Fortran Compiler with ABAQUS
+- Go to the folder “C:\Program Files (x86)\Intel\oneAPI\compiler\2023.1\env”. (Replace “2023.1” by your version of oneAPI if you use different version of fortran)
+- Find the file named “vars.bat”. View the properties of the file and copy its location.
+- Create a new txt file, type “call” with a space. Enter two double quotes and paste the path you just copied into the double quotes. Then add the file name into the double quotes. Make sure the path target to the “vars.bat” file. Outside the double quotes, just follow by a space and “intel64 vs2019”.
+- Copy this line
+- Go to the folder “C:\SIMULIA\Commands” and find the file named “abq2023.bat”. Edit the file. Paste the copied line to the beginning of the file. Then save the file (You need the administrator access to save the file).
+- Launch Abaqus CAE to check if it is functional. If yes, run abaqus verification. You can find it in the start menu.
+- 
 
   
   
