@@ -15,6 +15,11 @@ Note:
 ## 1. Install ABAQUS 2023
 - There is a student free version that can be downloaded from https://www.3ds.com/edu/education/students/solutions/abaqus-le
 - The installation instructions can be find [here](https://github.com/Yazhuo-Liu/install-abaqus-with-fortran-on-windows/blob/main/ABAQUS_Installation_Instructions.pdf)
+- Then config the license server. Add the following command into `C:\SIMULIA\EstProducts\2023\win_b64\SMA\site\custom_v6.env`
+  ```bash
+  license_server_type=FLEXNET
+  abaquslm_license_file="27800@localhost"
+  ```
 - Abaqus CAA API component is required for running fortran subroutine
 
 ## 2.	Install visual studio community 2019 (must before intel oneAPI)
