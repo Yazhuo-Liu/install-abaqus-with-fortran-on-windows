@@ -18,7 +18,7 @@ Note:
 - Then config the license server. Add the following command into `C:\SIMULIA\EstProducts\2023\win_b64\SMA\site\custom_v6.env`
   ```bash
   license_server_type=FLEXNET
-  abaquslm_license_file="27800@localhost"
+  abaquslm_license_file="port@license_server_ip"
   ```
 - Abaqus CAA API component is required for running fortran subroutine
 
